@@ -1,0 +1,29 @@
+{
+  "name": "questionpunk",
+  "version": "1.1.1",
+  "description": "Create and review survey drafts, publish requested studies, and analyze QuestionPunk results.",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "openclaw.plugin.json",
+    "skills",
+    "config-merge.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ],
+    "compat": {
+      "pluginApi": ">=2026.9.8",
+      "minGatewayVersion": "2026.9.8"
+    },
+    "build": {
+      "openclawVersion": "2026.9.8"
+    }
+  }
+}

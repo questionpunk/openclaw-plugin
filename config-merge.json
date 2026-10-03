@@ -1,0 +1,15 @@
+{
+  "mcp": {
+    "servers": {
+      "questionpunk": {
+        "url": "https://app.questionpunk.com/api/v1",
+        "transport": "streamable-http",
+        "auth": "oauth",
+        "oauth": {
+          "identity": "per-requester",
+          "scope": "read write responses:read"
+        }
+      }
+    }
+  }
+}
