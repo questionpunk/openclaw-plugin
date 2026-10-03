@@ -19,7 +19,7 @@
       "./index.js"
     ],
     "compat": {
-      "pluginApi": "2026.9.8",
+      "pluginApi": ">=2026.9.8",
       "minGatewayVersion": "2026.9.8"
     },
     "build": {
