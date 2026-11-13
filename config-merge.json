@@ -9,6 +9,10 @@
           "identity": "per-requester",
           "scope": "read write responses:read"
         }
+      },
+      "questionpunk-start": {
+        "url": "https://mcp.questionpunk.com/start",
+        "transport": "streamable-http"
       }
     }
   }
