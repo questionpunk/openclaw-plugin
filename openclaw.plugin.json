@@ -1,7 +1,7 @@
 {
   "id": "questionpunk",
   "name": "QuestionPunk",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "Create and review survey drafts, publish requested studies, and analyze QuestionPunk results.",
   "skills": [
     "./skills"
